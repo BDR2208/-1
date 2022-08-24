@@ -1,5 +1,4 @@
-Практична 1
-Заввдання 1
+Завдання 1
 package Nmer1;
 
 import java.util.Scanner;
@@ -22,12 +21,13 @@ public class ddddd {
 	}
 
 Завдання 2
-
-
 package Nmer1;
+
 import java.util.Scanner;
+
 public class Завдання2 {
-public static void main(String[] args) {
+
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		System.out.println("The next number for the number " + a + " is " + ++a );
@@ -38,14 +38,16 @@ public static void main(String[] args) {
 
 }
 
-Завдання3
 
-
+Завдання 3
 package Nmer1;
+
 import java.util.Scanner;
+
 public class Завдання3 {
-public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		 int c = a / b;
@@ -56,15 +58,16 @@ public static void main(String[] args) {
 }
 
 
-	
 Завдання 4
-
-
 package Nmer1;
+
 import java.util.Scanner;
+
 public class Завдання4 {
-public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+		
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		 int c = a % b;
@@ -73,4 +76,3 @@ public static void main(String[] args) {
 	}
 
 }
-
