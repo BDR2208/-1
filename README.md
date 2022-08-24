@@ -1,5 +1,5 @@
-# 123321
 Практична 1
+Заввдання 1
 package Nmer1;
 
 import java.util.Scanner;
