@@ -1,0 +1,21 @@
+package Nmer7;
+
+import java.util.Scanner;
+
+public class Завдання3 {
+	static int calculateFactorial(int n){
+		int result = 1;
+		for (int i = 1; i <=n; i ++){
+			result = result*i;
+		}
+		return result;
+	}	
+ 
+	public static void main(String[] args){
+		System.out.println("Факторіал 1! =" + calculateFactorial(1));
+		System.out.println("Факторіал 2! =" + calculateFactorial(2)); 
+		System.out.println("Факторіал 3! =" + calculateFactorial(3)); 
+		System.out.println("Факторіал 4! =" + calculateFactorial(4)); 
+		System.out.println("Факторіал 5! =" + calculateFactorial(5)); 
+	}
+}
