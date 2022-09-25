@@ -1,0 +1,15 @@
+package Nmer6;
+
+import java.util.Scanner;
+
+public class Завдання3 {
+	 public static void main(String args[]) {
+		 
+		int p = 0;
+		int a = 5;
+		do {
+			System.out.println(p);
+			p=p+a;
+		} while (p < 101);
+	 }
+}
