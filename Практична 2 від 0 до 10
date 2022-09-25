@@ -1,0 +1,18 @@
+package Nmer4;
+
+import java.util.Scanner;
+
+public class Завдання2 {
+	  public static void main(String args[]){
+		  int a;
+	        Scanner input = new Scanner (System.in);
+	        System.out.println("Ведіть число: ");
+	        a = input.nextInt();
+	        if (a>0 && a<10) {
+	        	System.out.println("Позитивне " ); }
+	        	else {
+	        		System.out.println("Негативне ");
+	        	}
+	  }
+	
+}
