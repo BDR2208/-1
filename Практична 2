@@ -1,0 +1,30 @@
+package Nmer1;
+
+import java.util.Scanner;
+
+public class Завдання3 {
+	public static void main(String[] args) {
+		String simpleString = "Це звичайний рядок. Така ж стандартна та непримітна, як і всі ми.";
+	       int a = 0b1101010110;
+	       int b = 012314;
+	       int c = 456;
+	       int d = 0x141D12;
+	       double h = 2.718281828459045;
+	       float p = 4.05E-13F;
+	       boolean flag = false;
+
+	       if(true) {
+	           
+	      
+	       System.out.println(simpleString);
+	       System.out.println("Символ поділу - " + '\u00F7');
+	       System.out.println("цілісний 2-й: " + a);
+	       System.out.println("цілісний 4-й: " + b);
+	       System.out.println("цілісний 8-й: " + c);
+	       System.out.println("цілісний 16-й:" + d);
+	       System.out.println("Тип float в класичному вигляді: " + p);
+	       System.out.println("Тип double в класичному вигляді: " + h);
+	}
+	
+	}
+}
